@@ -46,7 +46,7 @@ class GenotypeDataSplitter:
         end_date = datetime.strptime(self.end_time, "%Y-%m-%d")
         
         if now > end_date:
-            print("错误：该软件已过期，请联系康普森农业更新软件！")
+            print("错误：该软件已过期，请联系作者更新软件！")
             print("请按任意键退出窗口")
             input()
             sys.exit(1)
